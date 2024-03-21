@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
 .hero video {
   width: 100%;
   height: calc(130vh - 10vh);
@@ -22,8 +28,7 @@
   font-weight: bolder;
 }
 .content h1 {
-  /* font-size: calc(5px + 5vh); */
-  /* line-height: calc(5px + 5vh); */
+ 
   text-shadow: 0 0 5px #0000, 0 0 15px black, 0 0 20px #1d1b18, 0 0 40px #14110a,
     0 0 60px #393838, 0 0 10px #0f0e0d, 0 0 98px #0c0707;
   color: #111;
@@ -79,8 +84,9 @@
 }
 
 .content p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
   font-size: 25px;
+  color:  #ffa500;
 }
 .input-group {
   display: flex;
@@ -132,7 +138,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-}
+}    
 .coupon img {
   width: 500px;
   animation: float 2s linear infinite;
@@ -154,6 +160,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 120px;
+  
 }
 
 /* button */
@@ -162,6 +169,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px 20px;
+ 
  
 }
 .button button{

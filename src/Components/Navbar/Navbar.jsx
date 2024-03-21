@@ -21,13 +21,14 @@ const Navbar = () => {
         </div>
         <div className="details">
           <h3>ABOUT</h3>
+
           <h3>CONTACT US</h3>
+
           <Link to="/Payment">
             <h3>PAYMENT</h3>
           </Link>
         </div>
       </div>
-      
     </nav>
   );
 };

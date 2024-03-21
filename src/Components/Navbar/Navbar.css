@@ -53,39 +53,3 @@
   color: rgb(64, 64, 246);
   cursor: pointer;
 }
-.hamburger {
-  display: none; /* Hide hamburger menu by default */
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin: 3px 0;
-  transition: transform 0.3s ease-in-out;
-}
-
-.open {
-  transform: rotate(45deg);
-}
-
-@media screen and (max-width: 768px) {
-  .details {
-    display: none; /* Hide details on small screens */
-    flex-direction: column;
-    gap: 10px;
-    position: absolute;
-    top: 70px; /* Adjust top position as needed */
-    left: 0;
-    background-color: white;
-    padding: 20px;
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .hamburger {
-    display: flex; /* Show hamburger menu on small screens */
-  }
-}
